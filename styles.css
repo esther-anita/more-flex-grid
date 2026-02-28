@@ -234,7 +234,7 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
-    justify-items: space-between;
+    justify-content: space-between;
     gap: 2rem;
 }
 
