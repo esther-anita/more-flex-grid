@@ -383,14 +383,14 @@ th:nth-of-type(even), td:nth-of-type(even){
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 1/-1;
+    gap: 1rem;
 }
 
 /* Heading for Social Media Section */
 #social h4{
     /* Styles were added here to arrange the content, these are grid children styles */
     /* TO DO */
-    
+    grid-column: 1/-1;
 }
 
 #social a{
